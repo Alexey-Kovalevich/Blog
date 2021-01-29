@@ -1138,6 +1138,9 @@ body {
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
+    display: block;
+    -o-object-fit: cover;
+    object-fit: cover;
 }
 
 .comments__author {
