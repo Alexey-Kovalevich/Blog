@@ -11,6 +11,10 @@ body {
     font-size: 1.4rem;
     line-height: 1.5;
     color: $white;
+
+    &.no-scroll {
+        overflow: hidden;
+    }
 }
 
 *,
@@ -42,3 +46,4 @@ body {
 @import "blocks/work";
 @import "blocks/tags";
 @import "blocks/cabinet";
+@import "blocks/modal";

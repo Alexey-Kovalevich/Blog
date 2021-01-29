@@ -12,9 +12,9 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="description" content="">
     
-    <title>Signup</title>
+    <title>Text page</title>
 </head>
-<body>
+<body class="no-scroll">
 
 
     <div class="page">
@@ -42,10 +42,10 @@
                   </ul>
                 </li>
                 <li class="nav__item">
-                  <a class="nav__link" href="#">Обо мне</a>
+                  <a class="nav__link" href="../text.html">Обо мне</a>
                 </li>
                 <li class="nav__item">
-                  <a class="nav__link" href="#">Реклама</a>
+                  <a class="nav__link" href="../text.html">Реклама</a>
                 </li>
               </ul>
             </nav>
@@ -122,49 +122,82 @@
         <main class="main">
             <div class="container">
                 
-                <h1 class="page__title page__title--center">Регистрация</h1>
-                
-                <form class="form form--auth" action="/" method="POST">
-                  <div class="form__group form__group--medium">
-                    <input class="form__control" type="text" placeholder="Ваше имя">
-                    <span class="form__line"></span>
+                <article class="post">
+                  <div class="post__actions">
+                    <a href="./index.html">вернуться назад</a>
+                    <a href="#">
+                      Поделиться<img class="post__actions-icon" src="assets/images/share.svg" alt="Поделиться">
+                    </a>
+                  </div>
+                  <div class="post__header post__header--open">
+                    <h1 class="post__title post__title--mb0">Как создавать сайты легко</h1>
                   </div>
                 
-                  <div class="form__group form__group--medium">
-                    <input class="form__control" type="email" placeholder="Ваш Email">
-                    <span class="form__line"></span>
-                  </div>
+                  <div class="post__content">
+                    <div class="post__text">
+                      <h2>Title h2</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum,
+                        posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales
+                        lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat. Lorem ipsum dolor sit
+                        amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia
+                        sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam
+                        id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+                      </p>
                 
-                  <div class="form__group form__group--medium">
-                    <input class="form__control" type="password" placeholder="Пароль">
-                    <span class="form__line"></span>
-                  </div>
+                      <h3>Title h3</h3>
+                      <p>
+                        Lorem <a href="#">ipsum dolor sit</a> ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci
+                        turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu
+                        egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel
+                        volutpat.
+                      </p>
                 
-                  <div class="form__group form__group--medium">
-                    <input class="form__control" type="password" placeholder="Подтвердите пароль">
-                    <span class="form__line"></span>
-                  </div>
+                      <h4>Title h4</h4>
                 
-                  <div class="form__footer form__footer--center">
-                    <div class="form__group form__group--medium">
-                      <button class="btn btn--blue btn--rounded btn--small" type="submit">Регистрация</button>
-                    </div>
-                    <ul class="form__footer-list">
-                      <li>
-                        <a href="#">восстановить пароль</a>
-                      </li>
-                      <li>
-                        <a href="#">войти</a>
-                      </li>
-                    </ul>
-                  </div>
-                  
-                </form>
+                      <p>
+                        <img src="assets/images/image.jpg" alt="">
+                      </p>
+                
+                      <ul>
+                        <li>item1</li>
+                        <li>item2</li>
+                        <li>item3</li>
+                        <li>item4</li>
+                      </ul>
+                
+                      <ol>
+                        <li>item1</li>
+                        <li>item2</li>
+                        <li>item3</li>
+                        <li>item4</li>
+                      </ol>
+                
+                      <table>
+                        <tr>
+                          <td>1</td>
+                          <td>2</td>
+                          <td>3</td>
+                        </tr>
+                      </table>
+                
+                      <p>
+                        <span class="fr-video">
+                          <iframe src="https://www.youtube.com/embed/CvEttNvty0U" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        </span>
+                      </p>
+                    </div> <!-- ./post__text -->
+                  </div> <!-- ./post__content -->
+                </article> <!-- /.post -->
             </div>
         </main>
     </div>
 
-    
+    <div class="modal">
+      <video class="modal__video" src="" poster="https://placehold.it/420x580"></video>
+    </div>    
     <!-- JS -->
     <script src="assets/js/app.js"></script>
 </body>
